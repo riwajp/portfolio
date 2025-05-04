@@ -14,10 +14,39 @@ window.addEventListener("DOMContentLoaded", () => {
         const work = document.createElement("div");
         work.classList.add("latest-work");
         work.innerHTML = `
-        <img src="${project.image}" alt="${project.title}" />
-        <div class="latest-work-title">${project.title}</div>
-        <div class="latest-work-desc">${project.description}</div>
-      `;
+  <img src="${project.image}" alt="${project.title}" />
+  ${
+    project.tags
+      ? `<div class="latest-work-tags">
+          ${project.tags
+            .map(
+              (tag) =>
+                `<span class="work-tag">
+                  <i class="${tag.icon}"></i> ${tag.name}
+                </span>`
+            )
+            .join("")}
+        </div>`
+      : ""
+  }
+  <div class="latest-work-title">${project.title}</div>
+  <div class="latest-work-desc">${project.description}</div>
+  ${
+    project.links
+      ? `<div class="latest-work-links">
+          ${project.links
+            .map(
+              (link) =>
+                `<a href="${link.url}" target="_blank" class="work-link">
+                   <i class="${link.icon}"></i> ${link.label}
+                 </a>`
+            )
+            .join("")}
+        </div>`
+      : ""
+  }
+`;
+
         worksList.appendChild(work);
       });
     })

@@ -99,6 +99,7 @@ body {
   height: 100vh;
   z-index: -1; /* ensures it's behind everything, optional */
   overflow-y: scroll;
+  padding-inline: 12px;
 }
 
 nav {
@@ -169,6 +170,8 @@ nav {
   animation: fade-in 1s ease-out forwards,
     scale-down-center 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s infinite;
   animation-delay: 0.1s;
+  margin-inline: auto;
+  text-align: center;
 }
 
 .hero-tags {
@@ -225,7 +228,7 @@ nav {
   max-width: 1200px;
   margin-inline: auto;
   padding: 16px 32px;
-  margin-bottom: 64px;
+  margin-bottom: 128px;
 }
 
 .latest-works-title {
@@ -252,8 +255,9 @@ nav {
 }
 
 .latest-work img {
-  height: 300px;
-  width: 100%;
+  background-color: #1f1f1f;
+  height: 400px;
+  max-width: 100%;
   object-fit: contain;
   border-radius: 12px;
 }
@@ -265,6 +269,26 @@ nav {
 
 .latest-work-desc {
   color: rgba(255, 255, 255, 0.5);
+}
+
+.latest-work-links {
+  display: flex;
+  gap: 32px;
+  margin-top: 8px;
+}
+
+.work-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.work-link:hover {
+  color: #03e9f4;
 }
 
 .technologies {
@@ -344,4 +368,38 @@ nav {
   display: flex;
   gap: 16px;
   font-size: 24px;
+}
+
+.latest-work-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.work-tag {
+  display: flex;
+  align-items: center;
+  background-color: #0b0b0b;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #ddd;
+  gap: 6px;
+}
+
+.work-tag i {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .latest-works-list {
+    grid-template-columns: 1fr;
+  }
+
+  .technology {
+    width: 180px;
+    padding: 8px 8px;
+    height: 48px;
+  }
 }
