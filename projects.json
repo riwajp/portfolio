@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Portfolio Website",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "image": "https://market-resized.envatousercontent.com/previews/files/523188343/Screenshort/01_Dashboard_01.jpg?w=590&h=300&cf_fit=crop&crop=top&format=auto&q=85&s=174b534cdb6b5e356b95e6619e82f1bbdb21007f15cc916cf6dbe2a9b7bf5c3d"
+  },
+  {
+    "title": "Todo App",
+    "description": "A productivity-focused todo app built with React.",
+    "image": "https://market-resized.envatousercontent.com/previews/files/523188343/Screenshort/01_Dashboard_01.jpg?w=590&h=300&cf_fit=crop&crop=top&format=auto&q=85&s=174b534cdb6b5e356b95e6619e82f1bbdb21007f15cc916cf6dbe2a9b7bf5c3d"
+  },
+  {
+    "title": "Chat App",
+    "description": "Real-time chat app using Socket.io and Node.js.",
+    "image": "https://market-resized.envatousercontent.com/previews/files/523188343/Screenshort/01_Dashboard_01.jpg?w=590&h=300&cf_fit=crop&crop=top&format=auto&q=85&s=174b534cdb6b5e356b95e6619e82f1bbdb21007f15cc916cf6dbe2a9b7bf5c3d"
+  }
+]
