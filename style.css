@@ -100,6 +100,7 @@ body {
   z-index: -1; /* ensures it's behind everything, optional */
   overflow-y: scroll;
   padding-inline: 12px;
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -135,6 +136,11 @@ nav {
   opacity: 0;
   transition: opacity 300ms;
   transition-delay: 0.7s;
+}
+
+.animated-nav a:hover {
+  color: #5093a5;
+  transition: color 0.3s;
 }
 
 /* Final visible state */
@@ -269,6 +275,7 @@ nav {
 
 .latest-work-desc {
   color: rgba(255, 255, 255, 0.5);
+  text-align: justify;
 }
 
 .latest-work-links {
@@ -368,6 +375,7 @@ nav {
   display: flex;
   gap: 16px;
   font-size: 24px;
+  cursor: pointer;
 }
 
 .latest-work-tags {

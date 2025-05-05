@@ -1,17 +1,24 @@
 [
   {
     "title": "Sabda - Nepali Vocabular Learning App",
-    "description": "Real-time chat app using Socket.io and Node.js.",
+    "description": "A minimalistic vocabulary-building mobile app designed to help users learn and retain Nepali words efficiently. The app features a daily feed of curated words with meanings, a personal word history, a save-for-later list, and a streak-based engagement system. Built using Flutter with secure local storage and daily notifications, the app emphasizes simplicity, consistency, and language retention.",
     "image": "./assets/sabda.gif",
     "tags": [
       { "name": "Flutter", "icon": "devicon-flutter-plain colored" },
       { "name": "Express JS", "icon": "devicon-express-original " },
       { "name": "Firebase", "icon": "devicon-firebase-plain colored" }
+    ],
+    "links": [
+      {
+        "label": "Link to APK",
+        "url": "https://drive.google.com/file/d/1Vs0REVpJPrXrudBwPKTpuLWyPoY_AOgL/view?usp=drive_link",
+        "icon": "fas fa-external-link-alt"
+      }
     ]
   },
   {
     "title": "Tetris Game",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "A visually polished Tetris clgame built with React, offering a smooth and responsive gameplay experience. While keeping the core mechanics simple and true to the original, the game features clean, modern visuals and intuitive controls. Designed primarily for desktop play, it showcases a minimalist design approach and effective use of React for handling UI and game logic.",
     "image": "./assets/tetris.gif",
     "tags": [
       { "name": "React", "icon": "devicon-react-original colored" },
@@ -32,7 +39,7 @@
   },
   {
     "title": "Intel 8085 Assembly Simulator",
-    "description": "A productivity-focused todo app built with React.",
+    "description": "A web-based simulator for the Intel 8085 microprocessor, featuring a built-in code editor, real-time memory and register views, flag status display, and execution logs. Designed for students and enthusiasts to write, run, and debug 8085 assembly code in an interactive environment. Built with a focus on clarity and usability, it provides a hands-on way to understand low-level computing concepts.",
     "image": "./assets/intel-8085.gif",
     "tags": [
       { "name": "React", "icon": "devicon-react-original colored" },
@@ -53,20 +60,37 @@
     ]
   },
   {
+    "title": "PAYO - Offline mobile wallet and payment system",
+    "description": "A wallet and payment system app designed for secure and offline financial transactions. PAYO allows users to generate one-time-use QR codes for transactions offline, using hashing and encryption techniques that can be verified by the server, which is scanned by a merchant to recieve payment. The app works offline for senders, only recievers (or merchants) need an internet connection. With an intuitive interface, users can easily track payments, view summaries, and manage dues.",
+    "image": "./assets/payo.gif",
+    "tags": [
+      { "name": "React Native", "icon": "devicon-react-plain colored" },
+      { "name": "Express JS", "icon": "devicon-express-original " },
+      { "name": "Firebase", "icon": "devicon-firebase-plain colored" }
+    ],
+    "links": [
+      {
+        "label": "GitHub (backend)",
+        "url": "https://github.com/riwajp/payo-backend",
+        "icon": "fab fa-github"
+      },
+      {
+        "label": "GitHub (frontend)",
+        "url": "https://github.com/Aayushstha03/payo-frontend",
+        "icon": "fab fa-github"
+      }
+    ]
+  },
+  {
     "title": "4-bit Processor from scratch",
-    "description": "A productivity-focused todo app built with React.",
+    "description": "A custom-built 4-bit processor designed using Logisim, following the Von Neumann architecture. It includes key components like an ALU, registers, control unit, and instruction memory. The project is fully documented, detailing the architecture, instruction set, and design decisions, making it a valuable learning tool for understanding processor design from the ground up.",
     "image": "./assets/processor.gif",
     "tags": [{ "name": "Logisim", "icon": "devicon-logisim-original colored" }],
     "links": [
       {
         "label": "GitHub",
-        "url": "https://github.com/riwajp/Intel-8085-Simulator",
+        "url": "https://github.com/riwajp/4-bit-processor",
         "icon": "fab fa-github"
-      },
-      {
-        "label": "Live Demo",
-        "url": "https://riwaj-8085.netlify.app/",
-        "icon": "fas fa-external-link-alt"
       }
     ]
   }
