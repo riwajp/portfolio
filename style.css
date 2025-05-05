@@ -149,6 +149,7 @@ nav {
   padding: 16px 36px;
   max-width: 90%;
   border: 1px solid #093a47;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.3);
 }
 
 .animated-nav.show a {
@@ -343,8 +344,13 @@ nav {
   width: 250px;
   height: 55px;
   max-width: 100%;
+  cursor: pointer;
 }
 
+.technology:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Adjust the shadow as needed */
+  transition: 0.4s ease;
+}
 .technology-name {
   font-size: 18px;
   color: rgba(255, 255, 255, 1);
@@ -401,6 +407,9 @@ nav {
 }
 
 @media (max-width: 768px) {
+  .hero-name {
+    font-size: 60px;
+  }
   .latest-works-list {
     grid-template-columns: 1fr;
   }
@@ -409,5 +418,15 @@ nav {
     width: 180px;
     padding: 8px 8px;
     height: 48px;
+  }
+
+  nav {
+    max-width: 98%;
+
+    padding: 8px 16px;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    height: 58px;
   }
 }
